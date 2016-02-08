@@ -1,5 +1,13 @@
 @import "compass/css3";
 
+@import "compass";
+    @import "color-schemer";
+@import "susy";
+@import "breakpoint";
+@import "bourbon";
+    @import "neat";
+@import "modular-scale";
+
 $gray: #dddddd;
 
 h1, h2, h3 {
