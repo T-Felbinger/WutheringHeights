@@ -8,6 +8,8 @@
    -moz-column-gap:      0px;
    column-count:         5;
    column-gap:           0px;
+    position:absolute;
+    z-index:-10;
 }
 
 #photos img {
@@ -49,5 +51,7 @@
     position: absolute;
     z-index: 1;
     height:100%;
-    background-color:rgba(0, 0, 0, .5)
+    background-color:rgba(0, 0, 0, .5);
+        position:absolute;
+    z-index: -9;
 }
