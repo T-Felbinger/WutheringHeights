@@ -1,4 +1,13 @@
-h1, h2, h3 {
+h1{
+  font-weight: 300;
+  background: #dddddd;
+  margin: 0 auto 1em;
+  padding: 0.5em;
+  text-align: center;
+  position: relative;
+  clear: both;
+}
+h2, h3 {
   font-weight: 300;
 }
 
