@@ -20,6 +20,10 @@ header h1 {
     text-align: center;
     margin-top: 0px;
 }
+h2, h3 {
+    font-weight: 500;
+
+}
 body {
     padding-top:250px;
       background-color: #07262F;
