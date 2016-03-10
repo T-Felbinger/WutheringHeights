@@ -24,7 +24,7 @@ function changeTime(i) {
 
 }
 
-var dates = ["1757", "1760", "1770", "1780"];
+var dates = ["1757", "1760", "1770", "1780", "1790", "1800"];
 
 function pickImage(time, i) {
 	return "Images/" + dates[time] + "s/img " + i + ".jpg";
