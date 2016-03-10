@@ -6,13 +6,16 @@
     <title>Wuthering Heights | Interactive Timeline</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="script.js">    </script>
+
 </head>
 
 <body>
     
-    <section id="photos"></section>
+    <section class="photos"></section>
+    <section class="photos"></section>
+    <section class="photos"></section>
+    <section class="photos"></section>
+    <section class="photos"></section>
     <section class="matte"></section>
     
 </body>
@@ -20,9 +23,25 @@
 
 
 <body>
+    <header>
+        <h1>Wuthering Heights | Interactive Timeline</h1>
+        <section class="section">
+          <div class="range">
 
+            <input class="range__input" type="range" min="0" max="3" value="0" onchange="changeTime($('.range__input').val())">
+
+            <ul class="range__labels">
+              <li class="range__labels__item range__labels__item--1">1757</li>
+              <li class="range__labels__item range__labels__item--2">1760</li>
+              <li class="range__labels__item range__labels__item--3">1770</li>
+              <li class="range__labels__item range__labels__item--4">1780</li>
+            </ul>
+
+          </div>
+        </section>
+    </header>
+    
     <div class="container">
-      <h1>Responsive HTML Timeline</h1>
 
       <div class="timeline">
         <h2>1757</h2>
@@ -39,7 +58,7 @@
             <time>August 1757</time>
           </li>
         </ul>
-
+      </div><div class="timeline">
         <h2>1760's</h2>
         <ul>
           <li>
@@ -64,7 +83,7 @@
             <time>May 1765</time>
           </li>
         </ul>
-
+        </div><div class="timeline">
         <h2>1770's</h2>
 
         <ul>
@@ -134,7 +153,7 @@
             <time>September 1778</time>
           </li>
         </ul>
-
+        </div><div class="timeline">
       <h2>1780's</h2>
 
         <ul>
@@ -289,9 +308,22 @@
     </div>
 </body>
 
-<section id="photos">
+<section class="photos">
     
 
 </section>
+<section class="photos">
     
+
+</section>
+<section class="photos">
+    
+
+</section>
+<section class="photos">
+    
+
+</section>
+        <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="script.js">    </script>
 </html>
